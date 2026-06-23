@@ -23,8 +23,8 @@ rm midivae/data/*.zip
 
 - preprocessing은 실행할 필요 없습니다. 전처리된 data 파일들로 업로드하였습니다.
 
-# 모드 적용
-
+# 모드 적용 
+(https://docs.fabricmc.net/ko_kr/players/installing-fabric/ 참고)
 1. Fabric API 설치
 
 2. contextmod-1.0.0.jar 파일을 .minecraft/mods 폴더에 넣기  
