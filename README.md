@@ -22,3 +22,11 @@ rm midivae/data/*.zip
 마찬가지로 런타임은 T4 GPU로 바꿔주세요.
 
 - preprocessing은 실행할 필요 없습니다. 전처리된 data 파일들로 업로드하였습니다.
+
+# 모드 적용
+
+1. Fabric API 설치
+
+2. contextmod-1.0.0.jar 파일을 .minecraft/mods 폴더에 넣기  
+
+2. 런처에서 fabric API profile로 게임 실행
