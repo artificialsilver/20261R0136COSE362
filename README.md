@@ -4,6 +4,7 @@
 - output_sample은 모델을 사용하여 만들어본 1분짜리 샘플들입니다.
 
 # 실행 전 유의사항
+!!딥러닝 모델 관련 파일들은 모두 colab에서 실행합니다.!!
 
 1. midivae/data/1.zip, midivae/data/2.zip을 압축해제한 후, 안에 있는 mood 폴더들을 data 디렉토리 밑에 위치시키기
 
@@ -24,9 +25,12 @@ rm midivae/data/*.zip
 - preprocessing은 실행할 필요 없습니다. 전처리된 data 파일들로 업로드하였습니다.
 
 # 모드 적용 
+!!마인크래프트를 실행하는 local 컴퓨터에서 진행합니다.!!
 (https://docs.fabricmc.net/ko_kr/players/installing-fabric/ 참고)
 1. Fabric API 설치
 
 2. contextmod-1.0.0.jar 파일을 .minecraft/mods 폴더에 넣기  
 
 2. 런처에서 fabric API profile로 게임 실행
+
+!! minecraft가 설치된 경로의 context_ouput 폴더 안에 있는 moods.txt파일을 로컬 컴퓨터에 구글드라이에 설치한 후, colab에서 읽어올 수 있도록 동기화시켜야 colab의 파일이 실시간으로 동작할 수 있습니다. !!
